@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-P6-TM02B</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 2B 6to Primaria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos de Aprendizaje</strong>
+                                    <ul>
+                                        <li>Que los estudiantes aprendan el concepto de funciones para organizar código y apliquen todo lo aprendido para construir un proyecto final "Podómetro".</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase</strong>
+                                    <ul>
+                                        <li>⚡Saludo de I.A. con todos</li>
+                                        <li>⚡A.I. GYM (Análisis Profundo)</li>
+                                        <li>⚡VIBE CODING (Diseño y Planificación)</li>
+                                        <li>⚡IMPLEMENTACIÓN DEL CÓDIGO (Ejecución del Proyecto Final)</li>
+                                        <li>⚡GNIUS STORM (Demostración y Reflexión Final)</li>
+                                    </ul>
+                                    <strong>Entregable Clave</strong>
+                                    <ul>
+                                        <li>Programa funcional "El Podómetro Inteligente" en Python, que utiliza sensores, variables, lógica y funciones.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Acceso al editor de Python para micro:bit.</li>
+                                        <li>Chat de Agente Gnius (Xolo) activo.</li>
+                                        <li>Micro:bits con cables USB y portapilas (1 por cada 2 estudiantes).</li>
+                                        <li>Presentación de diapositivas.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna)</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet y el editor de Python.</li>
+                                                <li>Asegurar que los micro:bits estén listos y funcionales.</li>
+                                                <li>Probar el chat Agente Gnius (Xolo).</li>
+                                                <li>Tener la presentación de diapositivas lista para proyectar.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de I.A. con todos ⏰ 2 minutos</h2>
+                <p><strong>Propósito:</strong> Crear un ambiente acogedor y guiar a los estudiantes para que activen y personalicen la interacción con el agente de IA, Xolo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción Inicial ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 2) Da la bienvenida a los estudiantes y guíalos para que activen a Xolo en el chat.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola, Genios! 👋 ¡Bienvenidos a nuestra última sesión! Hoy uniremos todo lo que han aprendido para construir un proyecto final increíble. Antes de empezar, activen a nuestro copiloto, Xolo. Salúdenlo en el chat con su nombre y algo que les guste, como 'Hola Xolo, soy Andrea y me gustan los planetas'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Monitoreo y Verificación ⏰ 1 minuto</h3>
+                            <p>Asegúrate de que todos los estudiantes hayan recibido una respuesta de Xolo para continuar.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelente, Xolo está listo para el gran final! Si alguien no ha recibido respuesta, avíseme.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: A.I. GYM (Análisis Profundo) ⏰ 8 minutos</h2>
+                <p><strong>Propósito:</strong> Introducir el concepto de funciones como herramienta para organizar código complejo, mejorar la legibilidad y promover la reutilización.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Presentación Conceptual y Comando para Xolo ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 3) Plantea el problema del código desordenado y guía a los estudiantes para que pidan la explicación sobre funciones a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos al A.I. GYM! A medida que hacemos proyectos más complejos, nuestro código puede volverse un desastre, difícil de leer y arreglar. Para evitar esto, los programadores usan una herramienta súper poderosa: las funciones. Para aprender sobre ellas, pidan ayuda a Xolo. Escriban en el chat: 'Mi perfil es [tus gustos] y quiero que me enseñes qué son las funciones en Python y para qué sirven'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Monitoreo de Interacción y Síntesis ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositiva 4) Monitorea a los alumnos mientras interactúan con Xolo y resume los conceptos clave de una función.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Perfecto! Xolo les está explicando que una función es un bloque de código con un nombre. Se **define** una vez con `def mi_funcion():`, y luego se puede **llamar** o usar cuantas veces quieran solo escribiendo `mi_funcion()`. Esto se llama **abstracción**: oculta los detalles y hace el código más limpio.</p>
+                                <p class="dialogue assistant">Si tienen dudas, ¡pregúntenle a Xolo! Prueben con:<br><strong>'¿Por qué se llama 'abstracción'?'</strong><br><strong>'¿Puedo poner cualquier cosa dentro de una función?'</strong><br><strong>'Dame una analogía de una función usando una receta de cocina.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: VIBE CODING (Diseño y Planificación) ⏰ 10 minutos</h2>
+                <p><strong>Propósito:</strong> Diseñar el proyecto final "El Podómetro Inteligente", establecer su lógica y mostrar el código completo que integra todos los conceptos aprendidos, incluyendo la nueva función.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Presentando la "Vibe" del Proyecto Final ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 5) Introduce la idea del podómetro y desglosa su plan lógico en cuatro pasos claros.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien! Con esta nueva herramienta, vamos a diseñar nuestro proyecto final en VIBE CODING. La 'vibe' es "El Podómetro Inteligente". El plan es el siguiente: 1. Crear una variable `pasos` que empiece en 0. 2. Si agitamos el micro:bit, sumamos 1 a `pasos`. 3. Si presionamos el botón A, mostramos el total de `pasos`. 4. Si presionamos el botón B, reiniciamos los `pasos` a 0.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: De la Vibe al Código (El Plan de Xolo) ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositiva 6) Muestra el código completo del podómetro, destacando dónde se define y se llama la función.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Si le damos este plan a Xolo, nos generaría un código como este. Fíjense bien: hemos creado una función `def mostrar_pasos():` para organizar la tarea de mostrar el conteo. Luego, en el bucle principal, cuando presionamos el botón A, simplemente la llamamos con `mostrar_pasos()`. ¡Mucho más limpio! Este es el código que van a construir.</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;">from microbit import *
+
+pasos = 0
+
+# Una función para mostrar el conteo
+def mostrar_pasos():
+    display.scroll(str(pasos))
+
+while True:
+    # Detectar un paso
+    if accelerometer.was_gesture('shake'):
+        pasos = pasos + 1
+    
+    # Mostrar el conteo
+    if button_a.is_pressed():
+        mostrar_pasos() # ¡Llamando a nuestra función!
+    
+    # Resetear el conteo
+    if button_b.is_pressed():
+        pasos = 0
+        display.show(Image.NO) # Feedback visual del reseteo</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: IMPLEMENTACIÓN DEL CÓDIGO (Ejecución del Proyecto Final) ⏰ 10 minutos</h2>
+                <p><strong>Propósito:</strong> Permitir a los estudiantes construir y probar activamente su podómetro, aplicando todos los conceptos del curso en un proyecto tangible.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Construcción del Podómetro ⏰ 10 minutos</h3>
+                            <p>(Proyectar Diapositiva 7) Guía a los estudiantes para que escriban el código completo del podómetro y lo prueben.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Llegó el momento de IMPLEMENTAR el proyecto final! Abran el editor de Python y escriban el código del "Podómetro Inteligente" que acabamos de diseñar. Asegúrense de definir la función y de llamarla correctamente. Cuando terminen, carguen el código en su micro:bit. Recuerden turnarse con su compañero.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: GNIUS STORM (Demostración y Reflexión Final) ⏰ 10 minutos</h2>
+                <p><strong>Propósito:</strong> Demostrar los podómetros funcionales, reflexionar sobre los conceptos clave aprendidos y conectar estas habilidades con tecnologías más avanzadas.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Demostración en Vivo ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositiva 8) Organiza una prueba masiva y pide a algunos equipos que muestren su podómetro funcionando.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora del Gnius STORM final! ¡Todos de pie! Agiten su micro:bit para dar algunos pasos y luego usen el botón A para ver su conteo. ¡Prueben que el botón B de reseteo funcione! Ahora, un par de equipos, muéstrennos su podómetro en acción.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Reflexión y La Gran Conexión ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositiva 9) Concluye el curso conectando las funciones que crearon con las funciones utilizadas en robótica avanzada.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Felicidades, han construido un dispositivo funcional completo! Han usado variables, sensores, lógica y funciones. Estos son los pilares de toda la programación. Y aquí está la gran conexión: cuando en el futuro vean un comando de robot como `xgo.walk()`, ¿qué es en realidad? ¡Es una función! Una muy compleja, pero que se usa exactamente como la función `mostrar_pasos()` que crearon hoy. Han aprendido el lenguaje y la lógica para hablar con cualquier tipo de tecnología. ¡Este es el comienzo de su viaje como creadores!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
